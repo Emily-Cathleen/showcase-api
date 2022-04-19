@@ -8,8 +8,12 @@ app.use(cors({
 }));
 
 app.set('port', process.env.PORT || 3001);
-app.locals.title = 'Mycology Horoscope';
+//app.set sets the app to run on a specific port.
+//process.env.PORT is setting it to run on a specific external environment, AKA: Heroku/Surge
 
+app.locals.bob = 'Mycology Horoscope';
+//app.locals is vasically an object wrapper provided by Express. But it will always come out as an object.
+//if I want to store anything, if I wrap it
 app.get('/', (request, response) => {
   response.send('Welcome to mycology horoscope');
 });
@@ -23,8 +27,9 @@ app.get('/', (request, response) => {
 app.locals.horoscopes = monthlyData;
 
 app.get('/v1/monthlyData', (request, response) => {
-  const horoscopes = app.locals.horoscopes
-  response.json({horoscopes});
+  const horoscopes = app.locals.bob
+  response.json({horoscopes})
+  // response.send(app.locals.bob)
 });
 
 
