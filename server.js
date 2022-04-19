@@ -11,7 +11,8 @@ app.set('port', process.env.PORT || 3001);
 //app.set sets the app to run on a specific port.
 //process.env.PORT is setting it to run on a specific external environment, AKA: Heroku/Surge
 
-app.locals.bob = 'Mycology Horoscope';
+app.locals.title = 'Mycology Horoscope';
+//this can be used to print to the terminal to tell you its printing on "this server" aka, "3000"
 //app.locals is vasically an object wrapper provided by Express. But it will always come out as an object.
 //if I want to store anything, if I wrap it
 app.get('/', (request, response) => {
@@ -23,13 +24,11 @@ app.get('/', (request, response) => {
 // second arg is callback function that takes a request and response -  this is how I will write each one.
 // inside curlys: is response.send once there is a get requwst to the app for this URL, send back this response -  in this case its a random string.
 
-
 app.locals.horoscopes = monthlyData;
 
 app.get('/v1/monthlyData', (request, response) => {
-  const horoscopes = app.locals.bob
+  const horoscopes = app.locals.horoscopes
   response.json({horoscopes})
-  // response.send(app.locals.bob)
 });
 
 
