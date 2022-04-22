@@ -1,7 +1,7 @@
 const monthlyData = [
 {
   "name": "Oyster Mushroom",
-  "img_url": "https://en.wikipedia.org/wiki/Pleurotus#/media/File:Oyster_mushoom_fells.jpg",
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Oyster_mushoom_fells.jpg",
   "id": 1,
   "month": ["December", "January"],
   "sign": "Capricorn",
