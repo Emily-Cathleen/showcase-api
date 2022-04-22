@@ -11,7 +11,7 @@ const monthlyData = [
   "name": "Fly Agaric",
   "img_url": "https://en.wikipedia.org/wiki/Mushroom#/media/File:Amanita_muscaria_(fly_agaric).jpg",
   "id": 2,
-  "month": ["January", "February"]
+  "month": ["January", "February"],
   "sign": "Aquarius",
   "messages": ["hello Janurary Aquarius ", "Jan Aquarius"]
 },
