@@ -28,7 +28,7 @@ const monthlyData = [
   "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Lactarius_indigo_48568.jpg",
   "id": 4,
   "month": ["March", "April"],
-  "sign": "Pisces",
+  "sign": "Aries",
   "messages": ["hello March Peices", "Hi March"]
 },
 {
