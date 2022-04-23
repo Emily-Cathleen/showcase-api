@@ -9,24 +9,24 @@ const monthlyData = [
 },
 {
   "name": "Fly Agaric",
-  "img_url": "https://en.wikipedia.org/wiki/Mushroom#/media/File:Amanita_muscaria_(fly_agaric).jpg",
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Amanita_muscaria_3_vliegenzwammen_op_rij.jpg",
   "id": 2,
   "month": ["January", "February"],
   "sign": "Aquarius",
   "messages": ["hello Janurary Aquarius ", "Jan Aquarius"]
 },
 {
-  "name": "Fly Agaric",
-  "img_url": "https://en.wikipedia.org/wiki/Mushroom#/media/File:Amanita_muscaria_(fly_agaric).JPG",
-  "id": 2,
+  "name": "Psilocybin Mushrooms",
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Psilocybe_semilanceata_6514.jpg",
+  "id": 3,
   "month": "February",
   "sign": "Capricorn",
   "messages": ["hello February Capricorn", "Hi February"]
 },
 {
   "name": "Indigo Milk Cap",
-  "img_url": "https://en.wikipedia.org/wiki/Mushroom#/media/File:Lactarius_indigo_48568.jpg",
-  "id": 3,
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Lactarius_indigo_48568.jpg",
+  "id": 4,
   "month": "March",
   "sign": "Pisces",
   "messages": ["hello March Peices", "Hi March"]
