@@ -5,7 +5,7 @@ const monthlyData = [
   "id": 1,
   "month": ["December", "January"],
   "sign": "Capricorn",
-  "messages": ["hello Janurary Capricorn ", "Hi January"]
+  "messages": ["Happy and Beautiful!"]
 },
 {
   "name": "Fly Agaric",
@@ -13,7 +13,7 @@ const monthlyData = [
   "id": 2,
   "month": ["January", "February"],
   "sign": "Aquarius",
-  "messages": ["hello Janurary Aquarius ", "Jan Aquarius"]
+  "messages": ["Fearless and Resillient!"]
 },
 {
   "name": "Psilocybin Mushrooms",
@@ -21,7 +21,7 @@ const monthlyData = [
   "id": 3,
   "month": ["February", "March"],
   "sign": "Pisces",
-  "messages": ["hello February Capricorn", "Hi February"]
+  "messages": ["Seeking adventure in the near future"]
 },
 {
   "name": "Indigo Milk Cap",
@@ -29,7 +29,7 @@ const monthlyData = [
   "id": 4,
   "month": ["March", "April"],
   "sign": "Aries",
-  "messages": ["hello March Peices", "Hi March"]
+  "messages": ["crossing paths with someone from your past in the near future"]
 },
 {
   "name": "Lions Mane",
@@ -37,7 +37,7 @@ const monthlyData = [
   "id": 5,
   "month": ["April", "May"],
   "sign": "Taurus",
-  "messages": ["hello April Aries", "Hi April"]
+  "messages": ["learning a powerful lesson about who you should trust"]
 },
 {
   "name": "Agaricus bisporus: Portobello",
@@ -45,7 +45,7 @@ const monthlyData = [
   "id": 6,
   "month": ["May", "June"],
   "sign": "Gemini",
-  "messages": ["Hello Gemini"]
+  "messages": ["finding true love"]
 },
 {
   "name": "Enoki Mushroom",
@@ -53,7 +53,7 @@ const monthlyData = [
   "id": 7,
   "month": ["June", "July"],
   "sign": "Cancer",
-  "messages": ["Hello Cancer"]
+  "messages": ["rediscovering your inner child this year!"]
 },
 {
   "name": "Chanterelle Mushroom",
@@ -61,7 +61,7 @@ const monthlyData = [
   "id": 8,
   "month": ["July", "August"],
   "sign": "Leo",
-  "messages": ["Hello Leo"]
+  "messages": ["letting go of what no longer serves you"]
 },
 {
   "name": "Porcini Mushroom",
@@ -69,7 +69,7 @@ const monthlyData = [
   "id": 9,
   "month": ["August", "September"],
   "sign": "Virgo",
-  "messages": ["hello Virgo"]
+  "messages": ["marvelously kind to yourself, time to treat yourself! "]
 },
 {
   "name": "Wood Hedgehog Mushroom",
@@ -77,7 +77,7 @@ const monthlyData = [
   "id": 10,
   "month": ["September", "October"],
   "sign": "Libra",
-  "messages": ["Hello Libra"]
+  "messages": ["learning to go inward and get curious about what ailes you, do not seek the external"]
 },
 {
   "name": "Morels",
@@ -85,7 +85,7 @@ const monthlyData = [
   "id": 11,
   "month": ["October", "November"],
   "sign": "Scorpio",
-  "messages": ["hello Scorpio"]
+  "messages": ["putting your fiercest armor on, it is time for battle my dear"]
 },
 {
   "name": "Black Trumpet Mushroom",
@@ -93,7 +93,7 @@ const monthlyData = [
   "id": 12,
   "month": ["November", "December"],
   "sign": "Sagittarius",
-  "messages": ["hello Sagittarius"]
+  "messages": ["celebrating your most righteous self"]
 }
 
 ]
